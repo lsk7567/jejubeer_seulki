@@ -1,0 +1,223 @@
+/*
+  Clubnouveau : 클럽누보 공지사항 게시판
+*/
+.clubnouveau-banner-img-box{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 470px;
+}
+.clubnouveau-banner-img{
+  display: block;
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.clubnouveau-board-img-container{
+  /* border: 1px solid blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.clubnouveau-board-img-item{
+  aspect-ratio: 1/1;
+  opacity: 1;
+  position: relative;
+}
+.clubnouveau-board-img-post{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.clubnouveau-board-img-cover{
+  /* border: 1px solid orange; */
+  width: 100%;
+  height: 100%;
+  color: var(--color-text);
+  position: absolute;
+  opacity: 0;
+}
+.clubnouveau-board-img-cover-user{
+  /* border: 1px solid green; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 10px;
+}
+.clubnouveau-board-img-cover-user > p{
+  font-size: 15px;
+  height: 50px;
+  line-height: 55px;
+}
+.clubnouveau-board-img-cover-text > p{
+  /* border: 1px solid teal; */
+  margin: 95px 30px 95px 30px;
+  text-align: center;
+  line-height: 23px;
+  font-size: 14px;
+}
+.clubnouveau-user-icon{
+  /* border: 1px solid blue; */
+  margin-left: 30px;
+  width: 38px;
+  height: 38px;
+  color: #999999ab;
+}
+.clubnouveau-board-img-cover:hover{
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+}
+.clubnouveau-button-box{
+  text-align: right;
+  margin-bottom: 100px;
+}
+.clubnouveau-button-box button{
+  border: 1px solid var(--color-main);
+  border-radius: 15px;
+  background-color: var(--color-main);
+  color: #fff;
+  width: 80px;
+  height: 32px;
+  line-height: 30px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+}
+.clubnouveau-button-box button:hover{
+  border: 1px solid var(--color-main);
+  background-color: #fff;
+  color: var(--color-main);
+}
+
+/*
+  Clubnouveau Detail : 클럽누보 게시판 상세 게시물
+*/
+.clubnouveau-detail-post-title{
+  /* border: 1px solid olivedrab; */
+  margin-top: 40px;
+}
+.clubnouveau-detail-post-title > p{
+  /* border: 1px solid violet; */
+  display: inline-block;
+  height: 40px;
+  line-height: 45px;
+  font-size: 19px;
+  color: var(--color-text);
+  margin-bottom: 10px;
+}
+.clubnouveau-detail-post-writer-mainbox{
+  /* border: 1px solid hotpink; */
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  height: 50px;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.clubnouveau-detail-user-icon{
+  /* border: 1px solid blue; */
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  color: #999999ab;
+}
+.clubnouveau-detail-post-writer-1{
+  font-size: 15px;
+  color: var(--color-text);
+}
+.clubnouveau-detail-post-writer-2{
+  font-size: 13px;
+  color: #777;
+}
+.clubnouveau-detail-post hr{
+  height: 1px;
+  background-color: #dfdfdf;
+  border: 0;
+}
+.clubnouveau-detail-post-main-image{
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  object-position: 35% 35%;
+  margin-top: 25px;
+}
+.clubnouveau-detail-content{
+  line-height: 38px;
+  font-size: 17px;
+  color: var(--color-text);
+}
+.clubnouveau-detail-content-text{
+  /* border: 1px solid blueviolet; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.clubnouveau-detail-content span,
+.clubnouveau-pre-menu span,
+.clubnouveau-next-menu span{
+  font-weight: bold;
+}
+.clubnouveau-detail-post-sub-image-1,
+.clubnouveau-detail-post-sub-image-2{
+  width: 450px;
+}
+.clubnouveau-detail-post-sub-image-2{
+  margin-bottom: 70px;
+}
+.clubnouveau-pre-menu,
+.clubnouveau-next-menu{
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  height: 45px;
+  gap: 10px;
+  cursor: pointer;
+}
+.clubnouveau-pre-menu-icon,
+.clubnouveau-next-menu-icon{
+  /* border: 1px solid blue; */
+  color: var(--color-menu);
+  margin-left: 15px;
+}
+.clubnouveau-pre-menu-text,
+.clubnouveau-next-menu-text{
+  color: var(--color-menu);
+  height: 45px;
+  line-height: 50px;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.clubnouveau-pre-menu:hover,
+.clubnouveau-next-menu:hover{
+  background-color: #9999991b;
+}
+.clubnouveau-detail-button-box{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clubnouveau-detail-button-box button{
+  border: 1px solid var(--color-main);
+  border-radius: 15px;
+  background-color: var(--color-main);
+  color: #fff;
+  width: 80px;
+  height: 32px;
+  line-height: 30px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.clubnouveau-detail-button-box button:hover{
+  border: 1px solid var(--color-main);
+  background-color: #fff;
+  color: var(--color-main);
+}

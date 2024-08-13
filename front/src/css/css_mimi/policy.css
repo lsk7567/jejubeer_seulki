@@ -1,0 +1,126 @@
+/*
+  공통 적용
+*/
+.policy-title {
+  /* border: 1px solid blue; */
+  display: inline-block;
+  font-size: 27px;
+  color: var(--color-main);
+  margin-top: 170px;
+  margin-bottom: 50px;
+}
+.policy-text {
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 30px;
+  color: var(--color-text);
+}
+.policy-inner-text {
+  text-indent: -10px;
+  padding-left: 10px;
+  color: var(--color-text);
+}
+.policy-sub-inner-text {
+  margin-left: 10px;
+  color: var(--color-text);
+}
+.policy-table-text {
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 30px;
+  color: var(--color-text);
+}
+.policy-emphasis {
+  font-weight: bold;
+}
+.policy-table {
+  border: 1px solid #99999958;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 15px;
+}
+
+/*
+  Privacy Policy : 개인정보처리방침
+*/
+.privacy-policy-subtitle {
+  display: inline-block;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+.policy-table td {
+  /* border: 1px solid blue; */
+  height: 45px;
+}
+.privacy-policy-1st-table td {
+  /* border: 1px solid red; */
+  width: 420px;
+  padding-left: 10px;
+}
+.privacy-policy-2nd-table th {
+  font-weight: 400;
+  width: 200px;
+}
+.privacy-policy-2nd-table tr:first-child td {
+  text-align: center;
+  background-color: #9999992c;
+}
+.privacy-policy-2nd-table td {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+.privacy-policy-2nd-table-data2 {
+  /* border: 1px solid red; */
+  width: 450px;
+}
+.privacy-policy-2nd-table-data3 {
+  width: 490px;
+}
+.policy-last-text1 {
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.policy-click {
+  cursor: pointer;
+}
+
+/*
+  Video Policy : 영상정보처리기기 운영·관리방침
+*/
+.video-policy-1st-table {
+  margin-left: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.video-policy-1st-table th,
+.video-policy-2nd-table th,
+.video-policy-3rd-table th,
+.video-policy-4th-table th {
+  font-weight: 400;
+  width: 200px;
+  height: 45px;
+  background-color: #9999992c;
+}
+.video-policy-1st-table th:first-child,
+.video-policy-4th-table th:first-child {
+  width: 100px;
+}
+.video-policy-2nd-table,
+.video-policy-3rd-table,
+.video-policy-4th-table {
+  margin-left: 0;
+  width: 100%;
+  text-align: center;
+}
+.video-policy-3rd-table {
+  margin-bottom: 10px;
+}
+.policy-last-text2 {
+  display: inline-block;
+  margin-bottom: 100px;
+}

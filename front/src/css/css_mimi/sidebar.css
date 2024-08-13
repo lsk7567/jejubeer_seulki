@@ -1,0 +1,42 @@
+/*
+  Side Floating Bar : 사이드 플로팅바 (URL + 상단 이동버튼)
+*/
+.side-floating-bar{
+  /* border: 1px solid red; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 82%;
+  right: 2%;
+  z-index: 1;
+}
+.side-floating-bar div{
+  border-radius: 100%;
+  width: 63px;
+  height: 63px;
+  cursor: pointer;
+}
+.side-floating-url{
+  border: none;
+  background-color: var(--color-main);
+}
+.side-floating-url-content{
+  text-align: center;
+  line-height: 74px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #fff;
+}
+.side-floating-top{
+  border: none;
+  background-color: rgba(153, 153, 153, 0.6);
+  /* border: 1px solid green; */
+}
+.side-floating-top-content{
+  /* border: 1px solid hotpink; */
+  color: #fff;
+  width: 100%;
+  font-size: 42px;
+  padding-top: 12px;
+}

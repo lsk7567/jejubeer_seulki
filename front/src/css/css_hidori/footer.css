@@ -1,0 +1,75 @@
+.footer-container {
+  margin: 50px 0 100px 0;
+}
+
+.footer-menu-navigator {
+  display: flex;
+  position: relative;
+  font-size: 14px;
+  padding: 10px 0 10px 0;
+  margin: 0px 0 30px 0;
+}
+
+.footer-menu-navigator > span:nth-child(6) {
+  color: #000000;
+}
+
+.footer-menu-link {
+  color: #999999;
+  padding: 0px 10px 0px 0px;
+}
+
+.footer-menu-privacy {
+  color: #000000;
+}
+
+.footer-sns-link {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.footer-sns-youtube {
+  width: 190px;
+}
+
+.footer-sns-insta {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.footer-information {
+  font-size: 13px;
+  color: #999999;
+}
+
+.footer-information-head {
+  margin: 3px 0 3px 0;
+}
+
+.footer-information-head > span:nth-child(2) {
+  margin-left: 20px;
+}
+
+.footer-information > div {
+  padding: 3px 0 3px 0px;
+}
+
+.footer-information-cs {
+  display: flex;
+}
+
+.footer-information-cs > a {
+  margin-left: 5px;
+  color: #999999;
+}
+
+.footer-information-warning {
+  font-size: 11px;
+  margin: 15px 0px 15px 0px;
+  color: #bcbcbc;
+}
+
+.footer-information > div:last-child {
+  font-size: 11px;
+}

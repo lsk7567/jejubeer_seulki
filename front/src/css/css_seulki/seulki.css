@@ -1,0 +1,1804 @@
+/* --------------------------------------------------  슬기 공용 css */
+.seulki-flex {
+  display: flex;
+}
+
+.seulki-line {
+  background: #e5e7eb;
+  height: 1px;
+  border: 0;
+}
+
+/************************************************ BreweryIntroNav.jsx */
+
+.brewery-intro-div {
+  margin: 0 auto;
+}
+
+.brewery-intro-nav {
+  background-color: #f3f3f3;
+  height: 46px;
+  padding-left: 50px;
+}
+
+.brewery-intro-nav-1depth {
+  width: 360px;
+  height: inherit;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.brewery-intro-nav-link {
+  color: #55585b;
+  font-size: 14px;
+  height: inherit;
+  width: inherit;
+  line-height: 48px;
+}
+
+.brewery-intro-nav-1depth > li:hover {
+  transition: 0.8s;
+  background-color: #1ecad3;
+}
+
+.brewery-intro-nav-1depth > li:hover a {
+  transition: 0.3s;
+  color: #fff;
+}
+
+.brewery-intro-nav-link-point {
+  background-color: #1ecad3;
+  color: #fff;
+}
+
+.my-button-s {
+  width: 120px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.my-button-s.active {
+  background-color: #1ecad3;
+  color: #fff;
+}
+
+.my-button-s.active a {
+  color: #fff;
+}
+
+/************************************************ BreweryIntroNavMini.jsx */
+/*? MiniOne */
+.brewery-intro-nav-2depth {
+  width: 200px;
+  height: 26.35px;
+  margin: 0 auto;
+  padding-left: 40px;
+  margin-top: 15px;
+}
+
+.brewery-intro-nav-2depth-link {
+  color: #55585b;
+  margin: 0 auto;
+  font-size: 13px;
+}
+
+.brewery-intro-nav-2depth-link:hover {
+  transition: 0.3s;
+  color: rgb(30, 202, 211);
+}
+
+.brewery-intro-nav-2depth-link li {
+  position: relative;
+  display: inline-block;
+}
+
+.brewery-intro-nav-2depth-link li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(30, 202, 211);
+  transition: 0.3s;
+  transform: scaleX(0);
+}
+
+.brewery-intro-nav-2depth-link:hover li::after,
+.brewery-intro-nav-2depth-link.active li::after {
+  transform: scaleX(1);
+}
+
+.brewery-intro-nav-2depth-link.active {
+  color: rgb(30, 202, 211);
+}
+
+/*? MiniTwo */
+
+.brewery-intro-nav-2depth-2 {
+  width: 300px;
+  height: 26.35px;
+  margin: 0 auto;
+  padding-left: 30px;
+  margin-top: 15px;
+}
+
+/************************************************ BreweryIntro.jsx */
+
+.breweryintro {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.breweryintro-block {
+  height: 140px;
+}
+
+.breweryintro-text-point {
+  color: rgb(30, 202, 211);
+  margin-bottom: 60px;
+}
+
+.breweryintro-text {
+  font-size: 14px;
+  color: #55585b;
+  line-height: 25px;
+}
+
+.brewery-image {
+  width: 1200px;
+  height: 600px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.breweryintro-text-2 {
+  margin-bottom: 120px;
+}
+
+/************************************************ BrewerySpace.jsx */
+
+.breweryspace {
+  margin: 0 auto;
+}
+.breweryspace-1 {
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 130px;
+}
+
+.breweryspace-img-div {
+  background-color: #1ecad3;
+  margin-top: -8px;
+  margin-bottom: 80px;
+}
+
+.breweryspace-img-div > img {
+  margin-left: 130px;
+}
+
+.breweryspace-h1 {
+  color: #4d5053;
+  display: inline-block;
+  border-bottom: 2px solid #55585b;
+}
+
+.breweryspace-textbox {
+  text-align: center;
+  width: 600px;
+  font-size: 16px;
+  color: #55585b;
+  line-height: 30px;
+}
+
+.space-image {
+  width: 1200px;
+  height: 600px;
+}
+
+.space-image-text {
+  width: 1200px;
+}
+
+.space-banner {
+  width: 1200px;
+  --swiper-theme-color: #fff;
+  /* --swiper-pagination-color: #1ecad3; */
+  margin-bottom: 100px;
+}
+
+.space-banner .swiper-button-prev::after,
+.space-banner .swiper-button-next::after {
+  font-size: 35px !important;
+  font-weight: bold !important;
+  margin-bottom: 190px !important;
+}
+
+.space-video {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 170px;
+}
+
+/************************************************ BreweryButtons.jsx */
+/*? BreweryButton1 */
+
+.brewery_button1 {
+  background-color: #1ecad3;
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  width: 160px;
+  height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 40px 0;
+  cursor: pointer;
+}
+
+.brewery_a {
+  text-decoration: none;
+}
+
+.brewery_a:hover button {
+  color: #1ecad3;
+  background-color: #fff;
+  border: 1px solid #1ecad3;
+  transition: 0.5s;
+}
+
+/*? BreweryButton2 */
+.brewery_visit_ul {
+  display: flex;
+  justify-content: left;
+  width: 300px;
+  height: 43px;
+}
+
+.brewery_visit_li {
+  width: 110px;
+}
+
+.brewery_button2 {
+  background-color: #1ecad3;
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  width: 100px;
+  height: 33px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/************************************************  BreweryTourMain.jsx */
+
+.brewerytour-video {
+  margin-top: -9px;
+}
+
+.brewerytourmain-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  margin-top: 450px;
+}
+
+.brewerytourmain-text p {
+  display: block;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.brewerytourmain-banner-text {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  padding-top: 90px;
+}
+
+.brewerytourmain-hr-div {
+  margin-top: -20px;
+}
+
+.brewerytourmain-hr {
+  position: relative;
+  width: 50%;
+  border-bottom: 1px solid #1ecad3;
+  margin-bottom: 20px;
+}
+
+.brewerytourmain-hr-text {
+  color: #1ecad3;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0 30px;
+}
+
+.brewerytourmain {
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  color: #55585b;
+}
+
+.brewerytourmain-p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.brewerytourmain-image {
+  width: 380.01px;
+  height: 378.99px;
+  padding: 15px;
+}
+
+.brewerytourmain-image:hover {
+  transition: 0.3s;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.brewerytourmain-image:hover + .brewerytourmain-image-p {
+  transition: 0.3s;
+  color: #1ecad3;
+}
+
+.brewerytourmain-ul {
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 85px;
+}
+
+.brewerytourmain-ul p {
+  font-size: 16px;
+  color: #55585b;
+}
+
+.brewerytourmain-img-div {
+  background-color: #f4f4f4;
+  height: "509.57px";
+}
+
+.brewerytourmain-img-div img {
+  width: 100%;
+  height: "509.57px";
+}
+
+/************************************************  BreweryVisit.jsx */
+
+.breweryvisit {
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.faqs-s {
+  margin: 0 auto;
+  padding: 15px;
+  margin-bottom: 80px;
+  width: 80%;
+}
+
+.faqs-s .faq {
+  margin: 15px;
+  padding: 15px;
+  background: #fff;
+  border-bottom: 2px solid #e5e7eb;
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1); */
+}
+
+.faqs-s .faq .faq-question-s {
+  position: relative;
+  font-size: 16px;
+  padding-right: 80px;
+  transition: all 0.4s ease;
+}
+
+.faqs-s .faq .faq-question-s::after {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  transition: all 0.2s ease;
+  font-size: 40px;
+  color: var(--color-main);
+}
+
+.faqs-s .faq .faq-answer-s {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  white-space: pre-wrap;
+}
+
+.faqs-s .faq.open .faq-question-s {
+  margin-bottom: 15px;
+}
+
+.faqs-s .faq.open .faq-question-s::after {
+  content: "-";
+}
+
+.faqs-s .faq.open .faq-answer-s {
+  max-height: 1000px;
+  opacity: 1;
+  white-space: pre-wrap;
+}
+
+.breweryvisit-h1 {
+  color: #4d5053;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.breweryvisit-p {
+  color: #4d5053;
+  margin-top: 30px;
+}
+
+/************************************************  Contact.jsx */
+
+.contact-s {
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.contect-text {
+  margin-top: 30px;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  line-height: 1.8;
+  margin-bottom: 48px;
+}
+
+.contact-map > * {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/************************************************  OemOdm.jsx */
+.oemodm-video {
+  margin-top: 15px;
+}
+
+.oemodm {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.oemodm-hr-div {
+  margin-top: 70px;
+}
+
+.oemodm-hr {
+  position: relative;
+  width: 40%;
+  border-bottom: 1px solid #1ecad3;
+  margin-bottom: 20px;
+}
+
+.oemodm-hr-text {
+  color: #1ecad3;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0 30px;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+.oemodm-icon {
+  animation: bounce 500ms infinite alternate ease-in;
+  width: 29.5px;
+  height: 48px;
+  color: #1ecad3;
+  font-weight: bold;
+}
+
+.oemodm-text {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #55585b;
+}
+
+.oemodm-img {
+  width: 523px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.oemodm-btn {
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.oemodm-button {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  margin-top: -70px;
+}
+
+/************************************************  OemOdmSlide.jsx*/
+.wrapper-s {
+  .slide_container-s {
+    overflow: hidden;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 70px;
+
+    .slide_wrapper-s {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    .slide-s {
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap;
+      position: relative;
+      padding: 20px 0;
+
+      &.original-s {
+        animation: 50s linear infinite normal none running infiniteAnimation1;
+      }
+      &.clone-s {
+        animation: 50s linear infinite infiniteAnimation2;
+      }
+
+      li {
+        margin: 0 30px;
+        cursor: pointer;
+        z-index: 2;
+        transition: 0.3s;
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+@keyframes infiniteAnimation1 {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  50.1% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes infiniteAnimation2 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.oemodm-slide-img {
+  width: 180px;
+  height: 250px;
+}
+
+/************************************************  BreweryKitchen.jsx*/
+
+.kitchen-div-1 {
+  height: 126px;
+  background-color: #ff611c;
+  margin-top: -10px;
+}
+
+.kitchen-div-1 > p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 126px;
+}
+
+.kitchen-div-2 {
+  height: 355px;
+  align-items: center;
+}
+
+.kitchen-div-2-p {
+  padding-top: 110px;
+}
+
+.kitchen-div-2 {
+  background-image: url("../../../public/images/images_seulki/kitchen/11.jpg");
+  opacity: 0.9;
+  color: #fff;
+  text-align: center;
+}
+
+.kitchen1 {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.kitchen2 {
+  position: fixed;
+  top: 30%;
+  width: 100%;
+  z-index: -10;
+}
+
+.brewery-kitchbrewerytourmain-imageen-img {
+  width: 1400px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.brewery-kitchen-img2 {
+  width: 100%;
+}
+
+.kitchen-div-3 {
+  height: 100px;
+  background-color: #5fa64be0;
+  margin-top: -10px;
+}
+
+/************************************************  BreweryGroup.jsx*/
+
+.brewerygroup {
+  width: 1200px;
+  text-align: center;
+  align-items: center;
+  color: #55585b;
+  font-size: 15px;
+}
+
+.brewerygroup-div1 {
+  height: 170px;
+  border-bottom: 1px solid #cacccf;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 40px;
+}
+
+.brewerygroup-div2 {
+  height: 170px;
+  border-bottom: 1px solid #cacccf;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 38px;
+  justify-content: center;
+}
+
+.brewerygroup-div1-p2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #3d464b;
+}
+
+.brewerygroup-img-div {
+  width: 200px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+.brewerygroup-img-div-1 {
+  object-fit: contain;
+  width: 80%;
+  height: inherit;
+}
+
+.brewerygroup-div3 {
+  height: 340px;
+  border-bottom: 1px solid #cacccf;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.brewerygroup-div3-text1,
+.brewerygroup-div3-text2 {
+  line-height: 28px;
+}
+
+.brewerygroup-div3-text2 {
+  margin-top: 45px;
+}
+
+.brewerygroup-div3-p1 {
+  color: rgb(30, 202, 211);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.brewerygroup-div3-p2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #3d464b;
+}
+
+.brewerygroup-div4 {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.brewerygroup-div4-img {
+  height: 129px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/************************************************  BreweryGroupForm.jsx*/
+
+.group-form {
+  text-align: left;
+  margin-top: 60px;
+  padding-left: 200px;
+}
+
+.brewerygroup-p {
+  margin-bottom: 30px;
+}
+
+.group-form-info-p {
+  margin-top: 25px;
+}
+
+.group-form-uni-s {
+  display: inline-block;
+  font-size: 7px;
+  color: #1ecad3;
+  margin-left: 2px;
+}
+
+.group-form-error {
+  margin-left: 5px;
+  color: #1ecad3;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.group-info1 {
+  margin-top: 5px;
+  border: 1px solid #cacccf;
+  border-radius: 20px;
+  height: 34px;
+  width: 80%;
+  padding: 6px 12px;
+  outline: none;
+}
+
+.group-info2 {
+  margin-top: 5px;
+  border: 1px solid #cacccf;
+  border-radius: 20px;
+  height: 34px;
+  width: 65px;
+  padding: 6px 12px;
+  outline: none;
+  text-align: center;
+}
+
+.group-info3 {
+  margin-top: 5px;
+  border: 1px solid #cacccf;
+  border-radius: 20px;
+  height: 34px;
+  width: 150px;
+  padding: 6px 12px;
+  outline: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.group-info1:focus,
+.group-info2:focus,
+.group-info3:focus {
+  border: 1px solid #1ecad3;
+}
+
+.group-button {
+  width: 160px;
+  height: 45px;
+  margin: 0 auto;
+  margin-bottom: 260px;
+}
+
+.group-button:hover button {
+  /* color: #4d5053; */
+  color: #1ecad3;
+  background-color: #fff;
+  border: 1px solid #1ecad3;
+  transition: 0.5s;
+}
+
+/************************************************  BreweryTourButton.jsx*/
+
+.brewerytour-nav-ul {
+  height: 120px;
+  background-color: #1ecad3;
+  margin-top: -9px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.brewerytour-nav-li {
+  text-align: center;
+  width: 218px;
+  height: 60px;
+  background-color: #fff;
+  color: #1ecad3;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+  margin: 0 auto;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+}
+
+.brewerytour-nav-li:hover {
+  transition: 0.5s;
+  background-color: #1ecad3;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/************************************************  BreweryTour1.jsx*/
+
+.brewerytour-1 {
+  width: 1200px;
+  text-align: center;
+  align-items: center;
+  color: #55585b;
+  font-size: 15px;
+}
+
+.brewerytour-div1-p1 {
+  font-size: 22px;
+}
+
+.brewerytour-div1-p2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #3d464b;
+}
+
+.brewerytour-div2 {
+  height: 370px;
+  border-bottom: 1px solid #cacccf;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 38px;
+}
+
+.brewerytour1-table {
+  margin: 0 auto;
+  width: 90%;
+  border: 1px dotted #ddd;
+  border-collapse: collapse;
+  /* border-spacing: 0; */
+}
+
+.brewerytour1-table thead {
+  background: #07ced6;
+  color: #fff;
+  font-size: 17px;
+}
+
+.brewerytour1-table tr {
+  height: 52px;
+}
+
+.brewerytour1-table td,
+.brewerytour1-table th {
+  border: 1px solid #15b4b9;
+}
+
+.brewerytour1-table tr:first-child th {
+  border-top: 0;
+}
+
+.brewerytour1-table tr td:first-child,
+.brewerytour1-table tr th:first-child {
+  border-left: 0;
+}
+
+.brewerytour1-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.brewerytour1-table tr td:last-child,
+.brewerytour1-table tr th:last-child {
+  border-right: 0;
+}
+
+.brewerytour-div2-p {
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 60px;
+  color: red;
+  line-height: 25px;
+}
+
+.brewerytour-div2-img {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.brewerytour-div2-img span {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #07ced6;
+  font-weight: bold;
+}
+
+.brewerytour-div2-img img {
+  width: 53px;
+  height: 53px;
+  margin-right: 15px;
+}
+
+.brewerytour-div3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 38px;
+}
+
+.brewerytour-div3-p2 {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.brewerytour-div3 img {
+  margin-bottom: 30px;
+}
+
+.brewerytour-img-bg1 {
+  height: 675px;
+  background-color: #f4f4f4;
+  width: 100vw;
+  /* margin-left: -120px; */
+  margin-left: calc(-50vw + 50%);
+  margin-bottom: 80px;
+}
+
+.brewerytour-img-bg {
+  background-color: #f4f4f4;
+  height: 600px;
+  width: 100vw;
+  /* margin-left: -120px; */
+  margin-left: calc(-50vw + 50%);
+  margin-bottom: 80px;
+}
+
+.brewerytour-div4 {
+  justify-content: space-between;
+}
+
+.brewerytour-div4-p {
+  font-size: 20px;
+  white-space: pre-line;
+  height: 70px;
+  margin-top: 685px;
+  padding-bottom: 0;
+}
+
+/************************************************  BreweryTour2.jsx*/
+.brewerytour2-span-p1 {
+  line-height: 17px;
+  margin-top: 10px;
+}
+
+.brewerytour2-span-p2 {
+  font-size: 11px;
+}
+
+.brewerytour2-img-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+/************************************************  BreweryTourCheck1.jsx*/
+
+.tour-check1 {
+  text-align: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  color: #55585b;
+  line-height: 30px;
+}
+
+.tour-check1-h1 {
+  color: #55585b;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+.tour-check1-ul {
+  text-align: left;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding-left: 230px;
+  margin-top: -50px;
+}
+
+.tour-check1-btn {
+  text-align: center;
+  width: 218px;
+  height: 60px;
+  background-color: #1ecad3;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 auto;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.tour-check1-btn:hover {
+  transition: 0.5s;
+  background-color: #fff;
+  color: #1ecad3;
+  border: 2px solid #1ecad3;
+}
+
+/************************************************  BreweryTourCheck2.jsx*/
+
+.tour-check2-ul {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 190px;
+  line-height: 50px;
+  margin-bottom: 70px;
+}
+
+.tour-check2-ul-span {
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+}
+
+.tour-check2-h {
+  animation: bounce 500ms infinite alternate ease-in;
+  /* color: #55585b; */
+  color: #1ecad3;
+}
+
+/************************************************  BreweryTourTicket.jsx*/
+
+.tour-ticket {
+  text-align: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  /* border: 1px solid red; */
+}
+
+.tour-ticket-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.tour-ticket-nav-li {
+  /* 예약 3스텝 navbar */
+  width: 400px;
+  height: 50px;
+  border: 1px solid #cacccf;
+  background-color: #f8f8f8;
+  color: #55585b;
+  line-height: 50px;
+}
+
+.tour-ticket-step1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.tour-ticket-step1-div1 {
+  width: 610px;
+  height: 505px;
+  margin-left: -32px;
+}
+
+.tour-ticket-step1-div2 {
+  width: 570px;
+  height: 505px;
+  /* border: 1px solid rgb(40, 128, 0); */
+}
+
+.brewery-cal-icon {
+  width: 25px;
+  height: 25px;
+  color: #1ecad3;
+  margin-bottom: 20px;
+}
+
+.selected-date-s {
+  margin-top: 5px;
+  color: #333;
+  margin-bottom: 18px;
+}
+
+.tour-ticket-step1-div1-p {
+  text-align: left;
+  padding-left: 20px;
+  line-height: 30px;
+  color: #3d464b;
+}
+
+.tour-ticket-step1-div2-date {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #cacccf;
+  height: 48px;
+}
+
+.brewery-step1-ul {
+  /* border: 1px solid hotpink; */
+}
+
+.brewery-step1-ul-li-1 {
+  border-bottom: 1px solid #cacccf;
+}
+
+.brewery-step1-ul-li-1 > div {
+  height: 50px;
+  width: 100px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.brewery-step1-ul-li-2 {
+  border-bottom: 1px solid #cacccf;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.brewery-step1-ul-li-2-input {
+  width: 90px;
+}
+
+.tour-ticket-step1-radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.tour-ticket-step1-radio:checked {
+  background-color: #07ced6;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1.6px #07ced6;
+}
+
+.brewery-step1-ul-li-2-count {
+  width: 120px;
+  padding-top: 2px;
+}
+
+.brewery-step1-tour-ul {
+  /* border: 1px solid rgb(98, 179, 255); */
+  margin-bottom: 2px;
+  margin-right: 15px;
+}
+
+.brewery-step1-tour-li {
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.brewery-step1-btn-div {
+  border: 1px solid lightgray;
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2px;
+}
+
+.brewery-step1-btn-div-span2 {
+  padding-top: 2px;
+}
+
+.brewery-step1-btn {
+  width: 27px;
+  height: 24px;
+  background-color: rgb(212, 251, 253);
+  text-align: center;
+  cursor: pointer;
+  padding: 1px;
+  line-height: 28px;
+}
+
+.brewery-step1-btn2 {
+  background-color: #1ecad3;
+  color: white;
+  border: none;
+  width: 65px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.tour-ticket-nav-li.active {
+  /* 예약 3스텝 navbar */
+  border-top: 3px solid #1ecad3;
+  border-bottom: none;
+  background-color: #fff;
+  color: #1ecad3;
+  font-weight: bold;
+}
+
+/*! ***********************************************  BreweryCalender.jsx*/
+.calendar-s {
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  /* font-weight: bold; */
+  color: #8c8c8c;
+}
+
+.calendar-s .monthtitle-s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+.calendar-s .monthtitle-s .month-s {
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 10px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.calendar-s .monthtitle-s .prevbutton-s,
+.calendar-s .monthtitle-s .nextbutton-s {
+  all: unset;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #ddd;
+}
+.calendar-s .monthtitle-s .prevbutton-s svg,
+.calendar-s .monthtitle-s .nextbutton-s svg {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  color: #1ecad3;
+}
+.calendar-s .daycontainer-s {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 20px;
+}
+.calendar-s .daycontainer-s > div {
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #cacccf;
+  /* font-weight: bold; */
+  height: 35px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6c6c6c;
+}
+.calendar-s .datecontainer-s {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.calendar-s .datecontainer-s > div {
+  border: 1px solid #cacccf;
+  height: 50px;
+  color: #8c8c8c;
+}
+.calendar-s .datecontainer-s > div .topLine-s {
+  display: flex;
+  gap: 5px;
+  padding: 0 3px;
+  align-items: center;
+}
+.calendar-s .datecontainer-s > div .topLine-s .today-s {
+  font-size: 16px;
+  color: #333;
+}
+.calendar-s .datecontainer-s .currentmonth-s {
+  /* font-weight: bold; */
+}
+.calendar-s .datecontainer-s .diffmonth-s {
+  color: #ddd;
+}
+
+.datecontainer-s .currentmonth-s:hover,
+.datecontainer-s .diffmonth-s:hover {
+  transition: background-color 0.3s ease;
+  background-color: #abfbff;
+  cursor: pointer;
+}
+
+.calendar-s .datecontainer-s .selected-s {
+  background-color: #1ecad3;
+  color: white;
+}
+
+/************************************************  BreweryTourTicket2.jsx*/
+
+.tour-ticket-step2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+}
+
+.tour-ticket-step2-div1 {
+  border: 1px solid #cacccf;
+  width: 570px;
+  margin-top: 40px;
+  padding: 50px 40px 0px 40px;
+  height: 650px;
+}
+
+.tour-ticket-step2-div2 {
+  border: 1px solid #cacccf;
+  width: 570px;
+  margin-top: 40px;
+  padding: 30px 40px 0px 40px;
+}
+
+.tour-ticket-step2-div1-1 {
+  border-bottom: 2px solid #cacccf;
+  text-align: left;
+  line-height: 45px;
+  padding-bottom: 30px;
+}
+
+.tour-ticket-step2-div1-1-span {
+  display: inline-block;
+  width: 100px;
+}
+
+.tour-ticket-info1 {
+  margin-top: 5px;
+  border: 1px solid #cacccf;
+  height: 50px;
+  width: 100%;
+  padding: 6px 12px;
+  outline: none;
+}
+
+.tour-ticket-info2 {
+  margin-top: 5px;
+  border: 1px solid #cacccf;
+  height: 50px;
+  width: 145px;
+  padding: 6px 12px;
+  outline: none;
+  text-align: center;
+}
+
+.tour-ticket-info1:focus,
+.tour-ticket-info2:focus {
+  border: 1px solid #1ecad3;
+}
+
+.tour-ticket-step2-div1-2 {
+  margin-top: 50px;
+}
+
+.tour-ticket-step2-div2-li {
+  border-bottom: 1px solid #cacccf;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.tour-ticket-step2-table {
+  font-size: 12px;
+  width: 488px;
+  height: 60px;
+  border-collapse: collapse;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+
+.tour-ticket-step2-table thead th {
+  background-color: #e7e7e7;
+  border: 1px solid #999898;
+  padding-top: 5px;
+}
+
+.tour-ticket-step2-table tbody td {
+  border: 1px solid #999898;
+}
+
+.tour-ticket-step2-div2-li-1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tour-ticket-step2-div2-li-1 span {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.tour-ticket-step2-div2-li-1-p {
+  font-size: 11px;
+  color: #bdbfc3;
+  text-align: left;
+}
+
+.tour-ticket-step2-div2-li-2-span {
+  width: 300px;
+  text-align: left;
+  height: 25px;
+}
+
+.tour-checkbox {
+  margin-top: 5px;
+  width: 15px;
+  height: 16px;
+  appearance: none;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tour-checkbox:checked {
+  background-color: var(--color-main);
+  border-color: var(--color-main);
+  position: relative;
+}
+
+.tour-checkbox:checked::after {
+  content: "✔";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: white;
+}
+
+.tour-ticket-step2-div2-li-2-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #1ecad3;
+  margin-right: 100px;
+}
+
+.tour-ticket-step2-div2-li-2-input {
+  /* margin-top: 10px; */
+  margin-top: 5px;
+  width: 15px;
+  height: 16px;
+  appearance: none;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tour-ticket-step2-div2-li-2-input:checked {
+  background-color: var(--color-main);
+  border-color: var(--color-main);
+  position: relative;
+}
+
+.tour-ticket-step2-div2-li-2-input:checked::after {
+  content: "✔";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: white;
+}
+
+.tour-ticket-step2-div2-li-2-span2 {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 40px;
+}
+
+.tour-ticket-step2-div2-li-2-span3 {
+  margin-left: 10px;
+  margin-top: 9px;
+}
+
+.tour-ticket-step2-div2-li-4 {
+  margin-top: -6px;
+  margin-left: 125px;
+  height: 35px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 67px;
+}
+
+.ticket-desc {
+  text-align: left;
+  font-size: 13px;
+  color: #bdbfc3;
+  border-bottom: 1px solid #cacccf;
+  padding-bottom: 10px;
+}
+
+.tour-ticket-step2-list {
+  border-bottom: 1px solid #cacccf;
+  padding-top: 20px;
+}
+
+.tour-ticket-step2-list-p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.tour-ticket-step2-list-total {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tour-ticket-step2-list-total-h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour-ticket-step2-list-total-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+.tour-ticket-step2-list-total-input div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.tour-ticket-step2-list-total-input div p {
+  height: 20px;
+  line-height: 28px;
+}
+
+.tour-ticket-step2-list-total-radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.tour-ticket-step2-list-total-radio:checked {
+  background-color: #07ced6;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 1.6px #07ced6;
+}
+
+.tour-ticket-step2-list-total-button {
+  background-color: #07ced6;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid #fff;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.tour-ticket-step2-list-total-button:hover {
+  background-color: #fff;
+  color: #07ced6;
+  border: 2px solid #07ced6;
+  transition: 0.3s;
+}
+
+/************************************************  BreweryTourTicket3.jsx*/
+
+.tour-ticket-step3 {
+  text-align: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  color: #55585b;
+  line-height: 30px;
+}
+
+.tour-ticket-step3-h1 {
+  color: #55585b;
+  line-height: 50px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.tour-ticket-step3-list-div {
+  width: 210px;
+}
+
+.tour-ticket-step3-list-p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+/************************************************  BreweryGlassTicket.jsx*/
+
+.brewery-step1-glass-ul {
+  margin-bottom: 2px;
+  margin-left: -10px;
+  font-size: 14px;
+}
+
+/************************************************  BreweryGlassTicket3.jsx*/
+
+.glass-ticket-step3-list-div {
+  width: 290px;
+}
+
+/************************************************  AdminTicketList.jsx*/
+
+.admin-ticket {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.admin-ticket-h1 {
+  color: var(--color-main);
+  text-align: center;
+}
+
+.admin-ticket-table {
+  width: 100%;
+  margin-top: 15px;
+  border: 1px dotted #c6c1bf;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 0 auto;
+  font-size: 13px;
+}
+
+.admin-ticket-table thead {
+  background: #07ced6;
+  color: #fff;
+  font-size: 17px;
+}
+
+.admin-ticket-table tr {
+  height: 52px;
+}
+
+.admin-ticket-table td {
+  color: #41332c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.admin-ticket-table td,
+.admin-ticket-table th {
+  border: 1px solid #15b4b9;
+}
+
+.admin-ticket-table tr:first-child th {
+  border-top: 0;
+}
+
+.admin-ticket-table tr td:first-child,
+.admin-ticket-table tr th:first-child {
+  border-left: 0;
+}
+
+.admin-ticket-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.admin-ticket-table tr td:last-child,
+.admin-ticket-table tr th:last-child {
+  border-right: 0;
+}
+
+.admin-ticket-btn-div {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.admin-ticket-btn-div button,
+.admin-btn-s {
+  background-color: #07ced6;
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid #07ced6;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.admin-ticket-btn-div button:hover,
+.admin-btn-s:hover {
+  transition: 0.2s;
+  background-color: #fff;
+  color: #07ced6;
+}

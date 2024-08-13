@@ -1,0 +1,146 @@
+.BulkPurchace-header-outer {
+  top: 270px;
+  right: 0;
+  width: 100%;
+  background-color: rgb(0, 153, 168);
+  /* border: 1px solid red; */
+}
+
+.BulkPurchace-header {
+  border: 1px solid rgb(0, 153, 168);
+  background-color: rgb(0, 153, 168);
+}
+
+.BulkPurchace-header h1 {
+  text-align: center;
+  margin: 90px 0 100px 0;
+  font-size: 50px;
+  color: white;
+}
+
+.BulkPurchace-container {
+  padding: 80px 0;
+}
+
+.BulkPurchace-container textarea {
+  width: 100%;
+  height: 150px;
+  font-size: 12px;
+  font-family: "LeferiBaseType-RegularA";
+  letter-spacing: -1px;
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+
+.BulkPurchace-container input[type="text"] {
+  width: 1400px;
+  border-radius: 50px;
+  padding: 9px;
+  letter-spacing: -1px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.BulkPurchace-container input[type="text"]:focus {
+  /* background-color: red; */
+  border: 0.5px solid var(--color-warmAqua);
+  outline: 0.5px solid var(--color-warmAqua) !important;
+}
+
+.BulkPurchace-container input[type="checkbox"] {
+  display: none;
+}
+
+.BulkPurchace-container input[type="checkbox"] + label {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  user-select: none;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.BulkPurchace-container input[type="checkbox"]:checked + label {
+  background-color: var(--color-warmAqua);
+  border: 1px solid var(--color-warmAqua);
+}
+
+.BulkPurchace-container input[type="checkbox"]:checked + label:before {
+  content: "✓";
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: -4px;
+  left: 1px;
+}
+
+.BulkPurchace-container input[type="checkbox"] + label + label {
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.BulkPurchace-q3 div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.BulkPurchace-q3 div input {
+  width: 80px !important;
+  height: 30px;
+}
+
+.BulkPurchace-container p {
+  color: var(--color-text);
+  margin-bottom: 5px;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+
+.BulkPurchace-star {
+  color: red;
+}
+
+.BulkPurchace-divInput {
+  margin-bottom: 30px;
+}
+
+.BulkPurchace-autofill:-webkit-autofill {
+  -webkit-text-fill-color: #000;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.BulkPurchace-q4 p:not(:nth-child(1)) span {
+  font-weight: bold;
+  color: var(--color-text) !important;
+}
+
+.BulkPurchace-btn {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.BulkPurchace-container button {
+  padding: 10px 22px 12px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  letter-spacing: -1px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--color-warmAqua);
+  color: white;
+  transition: all 0.5s;
+}
+
+.BulkPurchace-container button:hover {
+  background-color: white;
+  color: var(--color-warmAqua);
+  outline: 1px solid var(--color-warmAqua);
+}

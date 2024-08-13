@@ -1,0 +1,92 @@
+/**
+	Global
+*/
+
+:root {
+  --color-bg: #e5e7eb;
+  --color-bgsub: rgba(255, 255, 255, 1);
+  --color-main: #1ecad3;
+  --color-mainsub: #ff726b;
+  --color-warmAqua: rgb(31, 210, 205);
+  --color-text: #3d464b;
+  --color-menu: #55585b;
+  --color-login: #888888;
+  --color-footer: #999999;
+}
+
+/**
+	Commons
+*/
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header,
+.footer,
+.content,
+body,
+div,
+nav,
+ul,
+li,
+p,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+.header,
+.footer,
+.content {
+  width: 1400px;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+  /* scroll-behavior: smooth; */
+}
+
+*::selection {
+  background-color: var(--color-main);
+  color: white;
+}
+
+@font-face {
+  font-family: "LeferiBaseType-RegularA";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+  공용 컴포넌트
+*/
+
+.menu-main-title {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--color-main);
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.menu-sub-title {
+  /* border: 1px solid blue; */
+  text-align: center;
+  font-size: 14px;
+}
+
+.menutitle-margin {
+  padding: 50px 0 50px 0;
+}

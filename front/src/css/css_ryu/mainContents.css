@@ -1,0 +1,232 @@
+.main {
+  background-color: #f4f8f8;
+}
+
+.main a {
+  color: var(--color-text);
+}
+
+.mainProductList {
+  padding-top: 1px;
+}
+
+.mainProductList h1 {
+  margin: 80px 0;
+  letter-spacing: -1px;
+}
+
+.mainProductList li {
+  list-style: none;
+}
+
+.mainProductList h1 {
+  text-align: center;
+}
+
+.MainProductList-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 11.8px;
+}
+
+.MainProductList-item-img {
+  width: 270px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.ProductList-j-imgContainer {
+  position: relative;
+}
+
+.ProductList-j-imgContainer img:last-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.ProductList-j-imgContainer img.ProductList-j-show {
+  opacity: 1;
+}
+
+.MainProductList-item-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 91px;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px 5px;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.MainProductList-item-div p:first-child {
+  margin-bottom: 5px;
+  vertical-align: middle;
+  color: var(--color-text);
+}
+
+.MainProductList-item-div span:nth-child(1) {
+  color: var(--color-main);
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.MainProductList-item-div span:nth-child(2) {
+  font-size: 11px;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.MainProductList-items2 {
+  margin-bottom: 130px;
+}
+
+/* 
+* MainContents
+ */
+
+.MainContents-sns-outer {
+  background-color: rgb(246, 255, 255);
+}
+
+.MainContents-sns {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 0 120px 0;
+  background-color: rgb(246, 255, 255);
+}
+
+.MainContents-sns-img {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.MainContents-sns-img img {
+  width: 270px;
+  height: 270px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.MainContents-sns-img-div {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  border-radius: 16px;
+  background-color: var(--color-main);
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.MainContents-sns-img-div:hover {
+  opacity: 60%;
+}
+
+.MainContents-sns-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 50px;
+  letter-spacing: -1px;
+}
+
+.MainContents-sns-text p:first-child {
+  font-size: 34px;
+  font-weight: 700;
+  color: #3d464b;
+  margin: 10px 0;
+}
+
+.MainContents-sns-text p:not(:first-child) {
+  font-size: 16px;
+  margin: 3px 0;
+}
+
+.MainContents-sns-text p:nth-child(3) {
+  margin-bottom: 25px;
+}
+
+.MainContents-sns-text a {
+  width: 105px;
+  padding: 11px 15px 5px 15px;
+  margin: 0 auto;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid var(--color-warmAqua);
+  color: white;
+  background-color: var(--color-warmAqua);
+  transition: all 0.3s;
+}
+
+.MainContents-sns-text a:hover {
+  color: var(--color-main);
+  background-color: white;
+}
+
+/* brewery */
+.MainContents-brewery {
+  position: relative;
+  text-align: center;
+}
+
+.MainContents-brewery-div {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 483px;
+  background-color: rgba(35, 73, 72, 0.35);
+}
+
+.MainContents-brewery img {
+  width: 100%;
+  height: 483px;
+  object-fit: cover;
+}
+
+.MainContents-brewery-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: white;
+}
+
+.MainContents-brewery-text p:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.MainContents-brewery-text button {
+  width: 220px;
+  padding: 10px 13px;
+  margin: 0 auto;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  cursor: pointer;
+  border: white 1px solid;
+  color: var(--color-warmAqua);
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.MainContents-brewery-text button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--color-warmAqua);
+}

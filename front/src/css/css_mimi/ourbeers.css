@@ -1,0 +1,208 @@
+/*
+  ourbeers_main_swiper 
+*/
+.ourbeers-main-swiper{
+  width: 1200px;
+  height: 430px;
+  /* background-color: #00c9d4; */
+  --swiper-theme-color: #fff;
+  margin-top: 40px;
+}
+.ourbeers-main-swiper.jejuwheat{
+  background-color: #00c9d4;
+}
+.ourbeers-main-swiper.jejupale{
+  background-color: #00a986;
+}
+.ourbeers-main-swiper.jejudark{
+  background-color: #302c29;
+}
+.ourbeers-main-swiper.jejunouveau{
+  background-color: #26cad3;
+}
+.ourbeers-main-swiper.jejulager{
+  background-color: #004c94
+}
+.ourbeers-main-swiper.jejubarrel{
+  background-color: #0e0e0e;
+}
+.ourbeers-mainslide-image{
+  display: inline-block;
+  width: 850px;
+}
+.ourbeers-main-swiper .swiper-slide{
+  padding-top: 15px;
+  text-align: center;
+}
+.ourbeers-main-swiper .swiper-button-prev,
+.ourbeers-main-swiper .swiper-button-next{
+  top: 280px;
+  font-size: 24px;
+  font-weight: 100;
+}
+.ourbeers-main-swiper-below-box{
+  /* border: 1px solid red; */
+  width: 1200px;
+  height: 110px;
+  background-color: #00c9d4;
+  margin: 0 auto;
+}
+.ourbeers-main-swiper-below-box.jejuwheat{
+  background-color: #00c9d4;
+}
+.ourbeers-main-swiper-below-box.jejupale{
+  background-color: #00a986;
+}
+.ourbeers-main-swiper-below-box.jejudark{
+  background-color: #302c29;
+}
+.ourbeers-main-swiper-below-box.jejunouveau{
+  background-color: #26cad3;
+}
+.ourbeers-main-swiper-below-box.jejulager{
+  background-color: #004c94
+}
+.ourbeers-main-swiper-below-box.jejubarrel{
+  background-color: #0e0e0e;
+}
+.ourbeers-main-swiper-below-box img{
+  /* border: 1px solid red; */
+  display: block;
+  /* width: 30%; */
+  height: 80px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+/*
+  ourbeers_sub_swiper
+*/
+.ourbeers-sub-swiper{
+  /* border: 1px solid green; */
+  width: 1200px;
+  height: 270px;
+  --swiper-theme-color: #fff;
+  margin-top: 10px;
+}
+.ourbeers-sub-swiper.active{
+  display: none;
+}
+.ourbeers-sub-swiper .swiper-slide{
+  width: 33.3%;
+  height: 100%;
+  /* border: 1px solid #000; */
+}
+.ourbeers-subslide-image{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.ourbeers-sub-swiper .swiper-button-prev,
+.ourbeers-sub-swiper .swiper-button-next{
+  top: 135px;
+}
+
+.ourbeers-titleimage-box{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.ourbeers-titleimage{
+  width: 320px;
+}
+.ourbeers-product-info{
+  font-size: 17px;
+  text-align: center;
+  line-height: 30px;
+  color: var(--color-text);
+}
+.ourbeers-info-line{
+  width: 100px;
+  background-color: var(--color-main);
+  height: 2px;
+  border: 0;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+.ourbeers-info-line.jejuwheat{
+  background-color: #00c9d4;
+}
+.ourbeers-info-line.jejupale{
+  background-color: #00a986;
+}
+.ourbeers-info-line.jejudark{
+  background-color: #302c29;
+}
+.ourbeers-info-line.jejunouveau{
+  background-color: #0098a7;
+}
+.ourbeers-info-line.jejulager{
+  background-color: #004c94;
+}
+.ourbeers-info-line.jejubarrel{
+  background-color: #0e0e0e;
+}
+.ourbeers-info-table{
+  border-collapse: collapse;
+  border: transparent;
+  margin: auto;
+  width: 380px;
+  text-align: center;
+  font-size: 19px;
+  color: var(--color-main);
+  font-weight: bold;
+  line-height: 30px;
+}
+.ourbeers-info-detail.jejuwheat{
+  color: #00c9d4;
+}
+.ourbeers-info-detail.jejupale{
+  color: #00a986;
+}
+.ourbeers-info-detail.jejudark{
+  color: #302c29;
+}
+.ourbeers-info-detail.jejunouveau{
+  color: #0098a7;
+}
+.ourbeers-info-detail.jejulager{
+  color: #004c94;
+}
+.ourbeers-info-detail.jejulager{
+  color: #004c94;
+}
+.ourbeers-info-detail.jejubarrel{
+  color: #0e0e0e;
+}
+.ourbeers-ingredient{
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 90px;
+  gap: 40px;
+  text-align: center;
+}
+.ourbeers-ingredient div{
+  /* border: 1px solid red; */
+  width: 340px;
+  height: 110px;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ourbeers-ingredient div span{
+  /* border: 1px solid blue; */
+  display: block;
+  font-weight: bold;
+  font-size: 17px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+.ourbeers-ingredient div p{
+  font-size: 15px;
+}

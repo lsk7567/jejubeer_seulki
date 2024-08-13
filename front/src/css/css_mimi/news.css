@@ -1,0 +1,353 @@
+/*
+  Notice Navbar : Notice 내비게이션 바
+*/
+.notice-navbar-button {
+  padding-top: 3px;
+  width: 135px;
+}
+
+/*
+  News : 제주맥주 소식 게시판
+*/
+.news-banner-img-box {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 470px;
+}
+.news-banner-img {
+  display: block;
+  /* border: 1px solid red; */
+  margin: auto;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.news-table {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  width: 1000px;
+  text-align: center;
+  color: var(--color-text);
+}
+.news-table tr {
+  /* border: 1px solid blue; */
+  border: 1px solid #fff;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+  height: 48px;
+  font-size: 14px;
+  padding-top: 3px;
+}
+.news-table > thead > tr {
+  border: none;
+  border-top: 1px solid var(--color-text);
+}
+.news-table > thead > tr > th {
+  border: none;
+  padding-top: 6px;
+}
+.news-table tbody tr td {
+  padding-top: 6px;
+}
+.news-table tbody tr td:first-child {
+  width: 70px;
+}
+.news-table tbody tr td:nth-child(2) {
+  cursor: pointer;
+  width: 550px;
+}
+.news-table tbody tr:hover {
+  background-color: #9999991b;
+}
+
+/*
+  News Detail : 공지사항 게시판 상세 게시물
+*/
+.news-detail-post {
+  /* border: 1px solid blue; */
+  margin-top: 20px;
+}
+.news-detail-post span {
+  font-weight: bold;
+}
+.news-detail-post-title > p {
+  /* border: 1px solid violet; */
+  display: inline-block;
+  height: 40px;
+  line-height: 45px;
+  font-size: 19px;
+  color: var(--color-text);
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.news-detail-post-writer-box {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  color: var(--color-menu);
+}
+.news-detail-post hr {
+  height: 1px;
+  background-color: #dfdfdf;
+  border: 0;
+  margin-top: 20px;
+}
+.news-detail-content {
+  /* border: 1px solid red; */
+  line-height: 38px;
+  color: var(--color-text);
+}
+.news-detail-content-text {
+  /* border: 1px solid blue; */
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.news-detail-content-img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  margin-bottom: 50px;
+}
+.news-next-menu,
+.news-pre-menu {
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  height: 45px;
+  gap: 10px;
+  cursor: pointer;
+}
+.news-next-menu-icon,
+.news-pre-menu-icon {
+  color: var(--color-menu);
+  margin-left: 15px;
+}
+.news-next-menu-text,
+.news-pre-menu-text {
+  color: var(--color-menu);
+  height: 45px;
+  line-height: 50px;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.news-next-menu:hover,
+.news-pre-menu:hover {
+  background-color: #9999991b;
+}
+.news-detail-button {
+  margin-top: 15px;
+  border: 1px solid var(--color-main);
+  border-radius: 15px;
+  background-color: var(--color-main);
+  color: #fff;
+  width: 80px;
+  height: 32px;
+  line-height: 30px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.news-detail-button:hover {
+  border: 1px solid var(--color-main);
+  background-color: #fff;
+  color: var(--color-main);
+}
+
+.NewsDetail-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NewsDetail-UD-btns button {
+  margin-top: 15px;
+  margin-left: 0.2rem;
+  width: 80px;
+  height: 32px;
+  line-height: 30px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 1px solid var(--color-main);
+  color: #fff;
+  background-color: var(--color-main);
+}
+
+.NewsDetail-UD-btns button:hover {
+  border: 1px solid var(--color-main);
+  background-color: #fff;
+  color: var(--color-main);
+}
+
+/* 
+* 글쓰기 버튼
+*/
+
+.News-writeBtn {
+  margin: 0;
+  text-align: left;
+  padding-left: 12.5rem;
+}
+
+.News-writeBtn button {
+  border-radius: 20px;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: var(--color-main);
+  color: white;
+}
+
+/* 
+* 검색
+ */
+
+.News-writeSearch-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.News-search {
+  display: flex;
+  justify-content: right;
+  margin-right: 12.5rem;
+}
+
+.News-only-search {
+  display: flex;
+  justify-content: right;
+  margin-left: 72.5%;
+  /* border: 1px solid blue; */
+}
+
+/* .News-search select {
+  height: 42px;
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  color: #999;
+} */
+
+.News-search input,
+.News-only-search input {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  margin: 0 5px;
+  width: 150px;
+  height: 22px;
+  font-size: 13px;
+  color: var(--color-text);
+  transition: all 1s;
+}
+
+.News-search button,
+.News-only-search button {
+  width: 22px;
+  height: 23px;
+  font-size: 15px;
+  padding: 0;
+  cursor: pointer;
+  color: white;
+  background-color: var(--color-main);
+  border: #ddd;
+}
+
+/* 
+* 페이지네이션 pagenation
+ */
+/* .News-pagenation {
+  justify-content: center;
+}
+
+.rc-pagination-item-active {
+  border-color: var(--color-main);
+}
+
+.rc-pagination-disabled:hover,
+.rc-pagination-item:hover,
+.rc-pagination-item-link:hover,
+.rc-pagination-next button:hover,
+.rc-pagination-prev button:hover {
+  border: 1px solid var(--color-main) !important;
+} */
+
+.News-pagination {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid red;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 50px auto;
+}
+.pagination li {
+  width: 20px;
+  height: 20px;
+}
+
+.pagination li a:hover {
+  color: var(--color-main);
+}
+
+.pagination a {
+  color: var(--color-text);
+}
+
+.pagination li:nth-child(2),
+.pagination li:nth-child(5) {
+  margin-bottom: 6px;
+  margin-right: 8px;
+}
+.pagination li:nth-child(2) a,
+.pagination li:nth-child(5) a {
+  color: #858484;
+}
+.pagination li:nth-child(2):focus,
+.pagination li:nth-child(5):focus {
+  color: var(--color-main);
+}
+
+/**************
+** NewsWrite
+***************/
+
+.NewsWrite-table {
+  display: flex;
+  justify-content: center;
+}
+
+.NewsWrite-table input {
+  padding: 0.5rem 0 0.2rem 0;
+}
+
+.NewsWrite-table input:first-child {
+  width: 500px;
+}
+
+.NewsWrite-table textarea {
+  width: 500px;
+  height: 500px;
+}
+
+.NewsWrite-btnContainer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem 0;
+}

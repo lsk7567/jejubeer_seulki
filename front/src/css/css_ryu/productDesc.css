@@ -1,0 +1,204 @@
+.ProductDesc-gimBugak-textContainer,
+.ProductDesc-rubber-textContainer,
+.ProductDesc-glass-textContainer,
+.ProductDesc-joyakdol-textContainer {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.ProductDesc-gimBugak img,
+.ProductDesc-rubber img,
+.ProductDesc-glass img,
+.ProductDesc-joyakdol img {
+  width: 800px;
+}
+
+.ProductDesc-gimBugak-soldout {
+  margin: 5rem 0;
+}
+
+.ProductDesc-gimBugak-soldout p:not(:last-child) {
+  margin-bottom: 1rem;
+  font-size: 30px;
+  color: red;
+}
+
+.ProductDesc-gimBugak-soldout p:last-child {
+  margin-top: 2rem;
+  color: var(--color-text);
+}
+
+.ProductDesc-gimBugak-textTitle,
+.ProductDesc-rubber-textTitle,
+.ProductDesc-glass-textTitle,
+.ProductDesc-joyakdol-textTitle {
+  margin: 4rem 0 2rem 0;
+}
+.ProductDesc-gimBugak-textDesc,
+.ProductDesc-rubber-textDesc,
+.ProductDesc-glass-textDesc,
+.ProductDesc-joyakdol-textDesc {
+  margin-bottom: 3rem;
+  color: gray;
+}
+
+.ProductDesc-gim-title,
+.ProductDesc-rubber-title,
+.ProductDesc-glass-title,
+.ProductDesc-joyakdol-title {
+  font-size: 30px;
+  text-align: left;
+}
+.ProductDesc-gim-desc,
+.ProductDesc-rubber-desc,
+.ProductDesc-glass-desc,
+.ProductDesc-joyakdol-desc {
+  font-size: 16px;
+  text-align: left;
+}
+
+.ProductDesc-rubber-title:first-child,
+.ProductDesc-glass-title:last-child,
+.ProductDesc-joyakdol-title:first-child {
+  color: var(--color-main);
+  font-weight: bold;
+}
+
+.ProductDesc-joyakdol-title:last-child {
+  font-weight: bold;
+}
+
+.ProductDesc-joyakdol-desc:last-child {
+  margin-top: 2rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/**************
+** 테이블
+***************/
+.ProductDescTable {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.ProductDescTable-foodDesc p,
+.ProductDescTable-foodIngredient p,
+.ProductDescTable-productInfo p {
+  width: 800px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-main);
+  color: var(--color-main);
+}
+
+.ProductDescTable-foodDesc table,
+.ProductDescTable-foodIngredient table,
+.ProductDescTable-delivery table,
+.ProductDescTable-productInfo table {
+  text-align: left;
+  margin-bottom: 5rem;
+  font-size: 14px;
+  vertical-align: middle;
+  color: var(--color-text);
+}
+
+.ProductDescTable-foodDesc td,
+.ProductDescTable-foodIngredient td,
+.ProductDescTable-delivery td,
+.ProductDescTable-productInfo td {
+  vertical-align: middle;
+  padding-right: 1rem;
+}
+
+.ProductDescTable-foodDesc td:first-child,
+.ProductDescTable-productInfo td:first-child {
+  width: 450px;
+  padding-right: 200px;
+  font-weight: bold;
+}
+
+.ProductDescTable-foodIngredient td:first-child,
+.ProductDescTable-multieRows-title {
+  width: 300px;
+  padding-right: 2rem;
+  font-weight: bold;
+}
+
+.ProductDescTable-div {
+  width: 800px;
+  height: 1px;
+  margin: 0.5rem 0 1rem 0;
+  background-color: var(--color-main);
+}
+
+.ProductDescTable-multieRows {
+  position: relative;
+}
+
+.ProductDescTable-vericalDiv {
+  position: absolute;
+  width: 1px;
+  height: 12.4rem;
+  top: -18px;
+  left: 29rem;
+  background-color: var(--color-main);
+}
+
+.ProductDescTable-multieRows td:not(:first-child) {
+  width: 90px;
+}
+
+.ProductDescTable-productInfo {
+  margin-top: 5rem;
+}
+
+/* 
+* 배송안내 */
+.ProductDescTable-delivery p,
+.ProductDescTable-change p {
+  width: 800px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  color: var(--color-main);
+}
+.ProductDescTable-delivery table {
+  border-spacing: 0 0.5rem;
+}
+
+.ProductDescTable-delivery th {
+  font-size: 14px;
+  font-weight: normal;
+  border: none;
+}
+
+.ProductDescTable-delivery td:first-child {
+  width: 200px;
+  font-weight: bold;
+}
+
+/* 
+* 교환 및 환불 안내 */
+
+.ProductDescTable-change {
+  color: var(--color-text);
+  margin-bottom: 10rem;
+}
+
+.ProductDescTable-change ul {
+  text-align: left;
+  font-size: 14px;
+}
+
+.ProductDescTable-change li {
+  margin-bottom: 0.5rem;
+}
+.ProductDescTable-change li::before {
+  content: "⦁ ";
+}

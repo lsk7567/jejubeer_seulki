@@ -1,0 +1,264 @@
+{
+  "ourbeers": {
+    "jejuwheat":
+      {
+        "title": "jejuwheat",
+        "slideimagelist": [
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejuwheat/mainslide/1.jpg",
+            "alt": "jejuwheat-main-image1"
+          },
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejuwheat/mainslide/2.jpg",
+            "alt": "jejuwheat-main-image2"
+          },
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejuwheat/mainslide/3.png",
+            "alt": "jejuwheat-main-image3"
+          },
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejuwheat/mainslide/4.jpg",
+            "alt": "jejuwheat-main-image4"
+          }
+        ],
+        "slideimageproduct": "/images/images_mimi/ourbeers/jejuwheat/slideimageproduct/1.png",
+        "subslideimagelist": [
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejuwheat/subslide/1.jpg",
+            "alt": "jejuwheat-sub-image1"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejuwheat/subslide/2.jpg",
+            "alt": "jejuwheat-sub-image2"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejuwheat/subslide/3.jpg",
+            "alt": "jejuwheat-sub-image3"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejuwheat/subslide/4.jpg",
+            "alt": "jejuwheat-sub-image4"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejuwheat/subslide/5.jpg",
+            "alt": "jejuwheat-sub-image5"
+          }
+        ],
+        "titleimage": "/images/images_mimi/ourbeers/jejuwheat/titleimage/1.png",
+        "desc": "제주 감귤 껍질의 상큼함과 섬세한 꽃 향, \n입안 가득 부드럽게 퍼지는 시트러스향이 만나\n산뜻한 끝 맛을 선사하는 밀맥주입니다.",
+        "subdesc1": [
+          {"data1": "TYPE", "data2": "ALC(%)", "data3": "IBU"}, 
+          {"data1": "WIT ALE", "data2": "5.3", "data3": "21"}
+        ],
+        "subdesc2": [
+          {"subtitle": "재료", "subtext": "정제수, 보리맥아, 밀맥아, 홉, 제주산\n감귤껍질, 코리엔더, 건조오렌지껍질 등"},
+          {"subtitle": "푸드페어링", "subtext": "각종 바베큐 및 스테이크류, 기름진 생선회,\n파스타 등의 국수류에 더욱 잘 어울립니다."}
+        ]
+      },
+    "jejupale" :
+      { 
+        "title":"jejupale",
+        "slideimagelist": [
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejupale/mainslide/1.jpg",
+            "alt": "jejupale-main-image1"
+          },
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejupale/mainslide/2.png",
+            "alt": "jejupale-main-image2"
+          },
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejupale/mainslide/3.png",
+            "alt": "jejupale-main-image3"
+          }
+        ],
+        "slideimageproduct": "/images/images_mimi/ourbeers/jejupale/slideimageproduct/1.png",
+        "subslideimagelist": [
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejupale/subslide/1.jpg",
+            "alt": "jejupale-sub-image1"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejupale/subslide/2.jpg",
+            "alt": "jejupale-sub-image2"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejupale/subslide/3.jpg",
+            "alt": "jejupale-sub-image3"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejupale/subslide/4.jpg",
+            "alt": "jejupale-sub-image4"
+          }
+        ],
+        "titleimage": "/images/images_mimi/ourbeers/jejupale/titleimage/1.png",
+        "desc": "‘펠롱’은 반짝이라는 의미의 제주 방언입니다.\n다양한 식물들이 조화를 이루어 제주 곶자왈을 만드는 것처럼\n다양하고 개성있는 홉을 블렌딩하여\n반짝이는 시트러스 향을 느낄 수 있는\n제주스러운 페일 에일입니다.",
+        "subdesc1": [
+          {"data1": "TYPE", "data2": "ALC(%)", "data3": "IBU"},
+          {"data1": "PALE ALE", "data2": "5.5", "data3": "34"}
+        ],
+        "subdesc2": [
+          {"subtitle": "재료", "subtext": "정제수, 보리맥아, 홉, 효모 등"},
+          {"subtitle": "푸드페어링", "subtext": "흑돼지 두루치기, 생선조림, 회무침 등의\n매콤하거나 차가운 음식과 더욱 잘 어울립니다."}
+        ]
+      },
+    "jejudark" :
+      {
+        "title": "jejudark",
+        "slideimagelist": [
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejudark/mainslide/1.jpg",
+            "alt": "jejudark-main-image1"
+          },
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejudark/mainslide/2.jpg",
+            "alt": "jejudark-main-image2"
+          },
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejudark/mainslide/3.jpg",
+            "alt": "jejudark-main-image3"
+          }
+        ],
+        "slideimageproduct": "/images/images_mimi/ourbeers/jejudark/slideimageproduct/1.png",
+        "subslideimagelist": [
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejudark/subslide/1.jpg",
+            "alt": "jejudark-sub-image1"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejudark/subslide/2.jpg",
+            "alt": "jejudark-sub-image2"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejudark/subslide/3.jpg",
+            "alt": "jejudark-sub-image3"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejudark/subslide/4.jpg",
+            "alt": "jejudark-sub-image4"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejudark/subslide/5.jpg",
+            "alt": "jejudark-sub-image5"
+          }
+        ],
+        "titleimage": "/images/images_mimi/ourbeers/jejudark/titleimage/1.png",
+        "desc": "‘거멍’은 '검다'라는 의미의 제주 방언입니다.\n제주 흑보리와 초콜릿 밀을 사용하여\n제주의 여름밤을 떠올리게 하는 경쾌한 흑맥주입니다.",
+        "subdesc1": [
+          {"data1": "TYPE", "data2": "ALC(%)", "data3": "IBU"},
+          {"data1": "DALK ALE", "data2": "4.3", "data3": "16"}
+        ],
+        "subdesc2": [
+          {"subtitle": "재료", "subtext": "정제수, 보리맥아, 초콜릿 밀 맥아,\n제주 흑보리, 홉, 효모 등"},
+          {"subtitle": "푸드페어링", "subtext": "스테이크, 로스트 비프, 족발 등의\n풍미가 짙은 고기 요리와 잘 어울립니다."}
+        ]
+      },
+    "jejunouveau" : 
+      {
+        "title": "jejunouveau",
+        "slideimagelist": [
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejunouveau/mainslide/1.jpg",
+            "alt": "jejunouveau-main-image1"
+          }
+        ],
+        "slideimageproduct": "/images/images_mimi/ourbeers/jejunouveau/slideimageproduct/1.png",
+        "subslideimagelist": [
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejunouveau/subslide/1.jpg",
+            "alt": "jejunouveau-sub-image1"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejunouveau/subslide/2.jpg",
+            "alt": "jejunouveau-sub-image2"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejunouveau/subslide/3.jpg",
+            "alt": "jejunouveau-sub-image3"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejunouveau/subslide/4.jpg",
+            "alt": "jejunouveau-sub-image4"
+          },
+          {
+            "subslideimage": "/images/images_mimi/ourbeers/jejunouveau/subslide/5.jpg",
+            "alt": "jejunouveau-sub-image5"
+          }
+        ],
+        "titleimage": "/images/images_mimi/ourbeers/jejunouveau/titleimage/1.png",
+        "desc": "‘누보’의 뜻은 New&Fresh 를 뜻하는 프랑스어입니다.\n제주누보는 프리미엄 논알콜로\n유럽/미국산 프리미엄 맥주 원료를 사용하여\n깊고 진한 맛을 살렸습니다.",
+        "subdesc1": [
+          {"data1": "TYPE", "data2": "ALC(%)", "data3": "IBU"},
+          {"data1": "Non-alcoholic", "data2": "1% 미만", "data3": "48"}
+        ],
+        "subdesc2": [
+          {"subtitle": "재료", "subtext": "정제수, 보리맥아, 호프펠렛, 감귤피, 효모 등"},
+          {"subtitle": "푸드페어링", "subtext": "감자칩, 팝콘과 같은 가벼운 간식, 멕시칸/\n타이푸드와 같이 매콤한 음식과 잘 어울립니다."}
+        ]
+      },
+    "jejulager" : 
+      {
+        "title": "jejulager",
+        "slideimagelist": [
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejulager/mainslide/1.jpg",
+            "alt": "jejulager-main-image1"
+          },
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejulager/mainslide/2.jpg",
+            "alt": "jejulager-main-image2"
+          }
+        ],
+        "slideimageproduct": "/images/images_mimi/ourbeers/jejulager/slideimageproduct/1.png",
+        "subslideimagelist": null,
+        "titleimage": "/images/images_mimi/ourbeers/jejulager/titleimage/1.png",
+        "desc": "맥주의 기본 4대 원료를 사용하는 독일 맥주 순수령 원칙을 지킨\n제주 하얀 파도의 시원함과 부드러움을 닮은 올 몰트 라거입니다.",
+        "subdesc1": [
+          {"data1": "TYPE", "data2": "ALC(%)", "data3": "IBU"},
+          {"data1": "ALL MALT LAGER", "data2": "5.0", "data3": "16"}
+        ],
+        "subdesc2": [
+          {"subtitle": "재료", "subtext": "정제수, 보리맥아, 홉, 효모"},
+          {"subtitle": "푸드페어링", "subtext": "맥주와 즐기는 모든 음식 및 안주와 잘 어울리고,\n기름기 있는 짭짤한 음식들과 더욱 잘 어울리는\n청량한 맛의 라거입니다."}
+        ]
+      },
+    "jejubarrel" : 
+      {
+        "title": "jejubarrel",
+        "slideimagelist": [
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejubarrel/mainslide/1.jpg",
+            "alt": "jejubarrel-main-image1"
+          },
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejubarrel/mainslide/2.jpg",
+            "alt": "jejubarrel-main-image2"
+          },
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejubarrel/mainslide/3.jpg",
+            "alt": "jejubarrel-main-image3"
+          },
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejubarrel/mainslide/4.jpg",
+            "alt": "jejubarrel-main-image4"
+          },
+          {
+            "slideimage": "/images/images_mimi/ourbeers/jejubarrel/mainslide/5.jpg",
+            "alt": "jejubarrel-main-image5"
+          }
+        ],
+        "slideimageproduct": "/images/images_mimi/ourbeers/jejubarrel/slideimageproduct/1.png",
+        "subslideimagelist": null,
+        "titleimage": "/images/images_mimi/ourbeers/jejubarrel/titleimage/1.png",
+        "desc": "배럴 시리즈는 맥주 미식 문화의 저변을 넓히기 위해\n각자의 영역에서 철학을 가진 브랜드와 함께\n배럴 숙성을 거쳐 출시되는 한정 맥주입니다.",
+        "subdesc1": [
+          {"data1": "TYPE", "data2": "ALC(%)", "data3": "IBU"},
+          {"data1": "BA Imperial Stout", "data2": "13.5", "data3": "30"}
+        ],
+        "subdesc2": [
+          {"subtitle": "재료", "subtext": "정제수, 보리맥아, 홉, 효모, 초콜릿 밀 맥아 등"},
+          {"subtitle": "푸드페어링", "subtext": "너무 차갑지 않은 온도로 천천히 음미하시면\n더욱 풍부한 아로마를 경험하실 수 있습니다."}
+        ]
+      }
+  }
+}

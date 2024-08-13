@@ -1,0 +1,82 @@
+/*
+  TermsPage : 이용약관 페이지
+*/
+.terms-content-border{
+  border-top: 1.5px solid #99999950;
+}
+.terms-button-box{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+.terms-button-cm{
+  border: none;
+  height: 30px;
+  background-color: #fff;
+  cursor: pointer;
+  color: #999;
+  font-family: 'LeferiBaseType-RegularA';
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0;
+}
+.terms-button-cm.active{
+  /* border: none; */
+  border-bottom: 1px solid var(--color-main);
+  height: 30px;
+  background-color: #fff;
+  cursor: pointer;
+  color: var(--color-main);
+  font-family: 'LeferiBaseType-RegularA';
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0;
+}
+
+
+/*
+  ShowTerms : 이용약관 본문
+*/
+.terms-content-margin{
+  margin-bottom: 100px;
+}
+.terms-content-margin ol{
+  font-weight: bold;
+}
+.terms-content-margin ol li span{
+  font-weight: normal;
+}
+.terms-data-box{
+  margin-top: 50px;
+}
+.terms-data-list{
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.terms-subdata-box1{
+  font-size: 14px;
+}
+.terms-number{
+  font-weight: bold;
+}
+.terms-text{
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-text);
+}
+.terms-subtitle{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  padding-left: 10px;
+}
+.terms-inner-text-box{
+  /* border: 1px solid magenta;   */
+  padding-left: 30px;
+}

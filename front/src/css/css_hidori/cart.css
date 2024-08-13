@@ -1,0 +1,246 @@
+.cart-title {
+  position: relative;
+  margin: 50px 0 40px 0;
+}
+
+.cart-title > p:first-child {
+  font-size: 30px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.cart-count {
+  position: absolute;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid var(--color-warmAqua);
+  text-align: center;
+  font-weight: 700;
+  font-size: 11px;
+  top: 12px;
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-warmAqua);
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.cart-count > span {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+
+.cart-table {
+  border-top: 1px solid #dbdbdb;
+  width: 1400px;
+}
+
+.cart-table-head-checkbox {
+  appearance: none;
+  border: 0.3px solid #bcbcbc;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  margin-left: -10px;
+  margin-right: 20px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.cart-table-head-checkbox:checked {
+  background-color: var(--color-warmAqua);
+  border: none;
+}
+
+.cart-table-head-checkbox:checked::after {
+  content: "✔";
+  position: absolute;
+  top: 10%;
+  left: 23%;
+  color: white;
+  font-size: 12px;
+}
+
+.cart-table-head > td {
+  border-bottom: 1px solid #dbdbdb;
+  padding: 10px;
+  color: #3d464b99;
+}
+
+.cart-table-head > td:not(td:nth-child(1)) {
+  text-align: center;
+}
+
+.cart-table-body > td:not(td:nth-child(4)) {
+  border-right: 1px solid #dbdbdb;
+}
+
+.cart-table-body > td {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.cart-table-body > td:not(td:nth-child(1)) {
+  text-align: center;
+}
+
+.cart-table-product {
+  display: flex;
+  padding: 15px;
+}
+
+.cart-table-product-checkbox {
+  appearance: none;
+  border: 0.3px solid #bcbcbc;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  margin-left: -15px;
+  margin-right: 20px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.cart-table-product-checkbox:checked {
+  background-color: var(--color-warmAqua);
+  border: none;
+}
+
+.cart-table-product-checkbox:checked::after {
+  content: "✔";
+  position: absolute;
+  top: 10%;
+  left: 23%;
+  color: white;
+  font-size: 12px;
+}
+
+.cart-table-product > img {
+  width: 80px;
+}
+
+.cart-table-product > span {
+  padding-left: 20px;
+  font-size: 15px;
+  color: #3d464b;
+}
+
+.cart-table-product-price {
+  font-weight: 700;
+  font-size: 20px;
+  color: #3d464b;
+}
+
+.cart-table-product-delivery > div {
+  font-size: 15px;
+  color: #3d464b;
+}
+.cart-table-product-delivery > span {
+  font-size: 13px;
+  color: #3d464b;
+}
+
+.cart-table-product-qty > div {
+  font-size: 15px;
+}
+
+.cart-table-empty {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.cart-icon {
+  font-size: 51px;
+  color: #3d464b66;
+}
+
+.cart-table-empty > span {
+  font-size: 14px;
+  color: #3d464b66;
+}
+
+.cart-table-button {
+  border-radius: 50px;
+  width: 100px;
+  height: 30px;
+  margin: 15px 0 40px 0;
+  border: 0.5px solid #dbdbdb;
+  background-color: #ffffff;
+  color: #212121;
+}
+
+.cart-table-button:hover {
+  border: 0.5px solid black;
+  transition: 0.2s ease-in-out;
+}
+
+.cart-table-button:not(:hover) {
+  border: 0.5px solid #dbdbdb;
+  transition: 0.2s ease-in-out;
+}
+
+.cart-total-table {
+  border-top: 0.5px solid #000000;
+  border-bottom: 0.5px solid #000000;
+  width: 1200px;
+}
+
+.cart-total-table-body {
+  border-top: 0.5px solid #dbdbdb;
+}
+
+.cart-total-table-title > td {
+  padding: 10px 0;
+  border-bottom: 0.5px solid #dbdbdb;
+}
+
+.cart-total-table-title > td > span {
+  color: var(--color-warmAqua);
+}
+
+.cart-total-table-body > tr > div:nth-child(1) {
+  display: block;
+  width: 1330px;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 30px 30px 0px 30px;
+  text-align: center;
+}
+
+.cart-total-table-body > tr > div:nth-child(1) > span:nth-child(5) {
+  color: var(--color-warmAqua);
+}
+
+.cart-total-table-body > tr > div:nth-child(2) {
+  display: block;
+  width: 1330px;
+  margin: 0px 30px 30px 30px;
+  text-align: center;
+}
+
+.cart-total-table-body > tr > div:nth-child(1) > span {
+  padding: 10px;
+}
+
+.cart-total-table-body > tr > div:nth-child(2) > span {
+  padding: 30px;
+  font-size: 13px;
+  color: #3d464b;
+}
+
+.cart-order-button {
+  background-color: var(--color-warmAqua);
+  border-radius: 30px;
+  width: 300px;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 10px;
+  margin: 40px 0px 20px 550px;
+  align-items: center;
+  border: none;
+}
+.cart-table-shopping-button {
+  color: var(--color-warmAqua);
+  text-decoration: underline;
+  margin: 0px 0px 50px 650px;
+}
